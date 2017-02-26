@@ -11,7 +11,8 @@
   "dependencies": [
     "com.pa.quitch.qAIModCompatibilityPatch",
     "com.pa.legion-expansion-client",
-    "com.wondible.pa.hodgepodge"
+    "com.wondible.pa.hodgepodge",
+    "com.pa.legion-expansion-client-2"
   ],
   "companions": [
     "com.pa.legion-expansion-client"
