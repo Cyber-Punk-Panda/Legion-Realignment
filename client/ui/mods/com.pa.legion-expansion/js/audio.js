@@ -124,6 +124,9 @@ function legionAudio() {
   };
 
   audioModel.processEvent = function (event_type, sub_type) {
+    
+    if (defeated)
+        return;
 
     legionResponses = {};
 
