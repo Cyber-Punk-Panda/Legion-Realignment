@@ -11,7 +11,7 @@ function legionAudio() {
 
   oldProcessEvent = audioModel.processEvent
 
-// START OF STUFF COPIED DIRECTLY FROM AUDIO.JS
+  // START OF STUFF COPIED DIRECTLY FROM AUDIO.JS
 
   var audio_response_que = [];
   var global_audio_response_timeout = 3 * 1000 /* in ms*/;
