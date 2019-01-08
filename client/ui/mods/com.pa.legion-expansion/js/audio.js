@@ -11,6 +11,8 @@ function legionAudio() {
 
   oldProcessEvent = audioModel.processEvent
 
+// START OF STUFF COPIED DIRECTLY FROM AUDIO.JS
+
   var audio_response_que = [];
   var global_audio_response_timeout = 3 * 1000 /* in ms*/;
   var global_timeout_active = false;
@@ -123,6 +125,9 @@ function legionAudio() {
     };
   };
 
+  // END OF STUFF COPIED DIRECTLY FROM AUDIO.JS
+
+  // Add Legion notifications
   audioModel.processEvent = function (event_type, sub_type) {
 
     if (defeated)
@@ -130,6 +135,7 @@ function legionAudio() {
 
     legionResponses = {};
 
+    // Add MLA alerts for Legion units
     legionResponses[constants.event_type.sight] = {
       '/pa/units/land/l_nuke_launcher/l_nuke_launcher.json': new AudioResponseModel({
         audio: '/VO/Computer/site_nuke_installation',
