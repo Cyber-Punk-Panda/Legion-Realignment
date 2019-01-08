@@ -30,7 +30,8 @@
       "coui://ui/mods/com.pa.legion-expansion/shared_build.js"
     ],
     "live_game": [
-      "coui://ui/mods/com.pa.legion-expansion/live_game.js"
+      "coui://ui/mods/com.pa.legion-expansion/live_game.js",
+      "coui://ui/mods/com.pa.legion-expansion/js/audio.js"
     ],
     "live_game_players": [
       "coui://ui/mods/com.pa.legion-expansion/live_game_players.js"
@@ -67,6 +68,9 @@
     ],
     "live_game_menu": [
       "coui://ui/mods/com.pa.legion-expansion/live_game_menu.js"
+    ],
+    "live_game_unit_alert": [
+      "coui://ui/mods/com.pa.legion-expansion/js/audio.js"
     ],
     "new_game": [
       "coui://ui/mods/com.pa.legion-expansion/new_game.js"
