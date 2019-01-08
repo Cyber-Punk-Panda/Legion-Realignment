@@ -23,26 +23,26 @@ function legionAudio() {
   var defeated = false;
 
   var maybePlayQueuedResponse = function (clear_cooldown) {
-      if (clear_cooldown && !audio_response_que.length)
-          global_timeout_active = false;
-      else
-          global_timeout_active = true;
+    if (clear_cooldown && !audio_response_que.length)
+      global_timeout_active = false;
+    else
+      global_timeout_active = true;
 
-      if (!audio_response_que.length)
-          return;
+    if (!audio_response_que.length)
+      return;
 
-      var entry = audio_response_que.shift();
+    var entry = audio_response_que.shift();
 
-      if (audio_response_priority_level <= entry.priority || entry.priority === -1)
-          api.audio.playSoundAtLocation(entry.cue, 0, 0, 0);
+    if (audio_response_priority_level <= entry.priority || entry.priority === -1)
+      api.audio.playSoundAtLocation(entry.cue, 0, 0, 0);
 
-      setTimeout(function () { maybePlayQueuedResponse(true) }, global_audio_response_timeout);
+    setTimeout(function () { maybePlayQueuedResponse(true) }, global_audio_response_timeout);
   };
   var enqueueAudioResponse = function (cue, priority) {
-      audio_response_que.push({ cue: cue, priority: priority });
+    audio_response_que.push({ cue: cue, priority: priority });
 
-      if (audio_response_que.length === 1 && !global_timeout_active)
-          maybePlayQueuedResponse();
+    if (audio_response_que.length === 1 && !global_timeout_active)
+      maybePlayQueuedResponse();
   };
 
   var setAudioResponsePriorityLevel = function (level) {
@@ -124,9 +124,9 @@ function legionAudio() {
   };
 
   audioModel.processEvent = function (event_type, sub_type) {
-    
+
     if (defeated)
-        return;
+      return;
 
     legionResponses = {};
 
