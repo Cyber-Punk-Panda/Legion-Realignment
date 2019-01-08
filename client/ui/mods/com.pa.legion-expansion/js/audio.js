@@ -164,7 +164,6 @@ function legionAudio() {
 
 }
 
-
 try {
   legionAudio();
 }
