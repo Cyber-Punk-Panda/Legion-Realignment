@@ -58,7 +58,7 @@
     }
   ],
   "guard_layer": "WL_LandHorizontal",
-  "max_health": 1650,
+  "max_health": 1700,
   "mesh_bounds": [
     6.8,
     7.5,
@@ -72,7 +72,7 @@
   "navigation": {
     "acceleration": 100,
     "brake": 100,
-    "move_speed": 8,
+    "move_speed": 9,
     "turn_speed": 55
   },
   "physics": {

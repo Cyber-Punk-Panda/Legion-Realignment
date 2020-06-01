@@ -156,3 +156,37 @@
 - Range: 180 -> 165
 - Spawned Swarm:
   * Fire Rate: 5 -> 4
+
+## ARMOUR
+
+### Shank
+- Health: 300 -> 275
+- Fire Rate: 0.9 -> 0.7
+
+### Maul
+*The Maul is a support unit that doesn't see quite as much usage as the MLA Inferno. The fact that it's the slowest unit in almost any army composition certainly doesn't help. This change will hopefully penalize players less for mixing a few Mauls into their Armour armies.*
+
+- Speed: 8 -> 10
+
+### Scorpion
+*Ever since the Leveler has had its range buffed to 140, the Scorpion hasn't been able to compete with it anymore. We've buffed the Scorpion's single-target performance a bit to help it out a bit versus the Leveler.*
+
+*On the other hand, the Scorpion is also notorious for excessive scaling due to its high splash radius. We've reduced its splash radius a bit to compensate for the increased single target performance.*
+
+- Health: 1650 -> 1700
+- Speed: 8 -> 9
+- Range: 140 -> 145
+- Fire Rate: 0.4 -> 0.75
+- Splash Radius: 15 -> 7.5
+- Full Damage Splash Radius: 4 -> 3
+- Splash damages allies: True -> False
+
+### Deathmark
+*Since we've sped up all of the other 7 and 8 speed Legion units to some extent, it'd be a bit awkward to leave the Deathmark out of this buff.*
+
+- Speed: 8 -> 9
+
+### Havoc
+*The Havoc was historically a Leveler-killing unit, but getting a Havoc into range in the world of 140-range Levelers is rough.*
+
+- Cost: 750 -> 600
