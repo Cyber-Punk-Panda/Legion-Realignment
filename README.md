@@ -232,11 +232,40 @@
 ### Necromancer
 *We wanted to encourage players to mix Necromancers into their main army composition. As a result, we removed the on-death explosion from the Necromancer.*
 
-- On death explosion: Removed
-- Health: 2500 -> 1000
 - Range: 180 -> 300
 - Charge Rate: 35 -> 60
 - Cost: 1400 -> 1200
-- Vision: 150 -> 250
+- Vision: 100 -> 250
 
 *Side note: the Necromancer used to be less efficient than a factory at producing Purgers; it used 60 metal per Purger while the factory used 50 metal per Purger. However, since we nerfed Purgers to cost 60 metal, Necromancers now have the same metal efficiency as a factory for Purger production!*
+
+## FLYERS
+
+### Marauder
+*The Marauder is in an awkward position due to the fact that it serves the roles of both scout and harass unit. It seems to be undertuned, however.*
+- Build Cost: 240 -> 180
+- Damage: 16 -> 15
+- Range: 60 -> 30
+- Speed: 100 -> 85
+
+### Lockheed
+*As the result of a nerf to the MLA Kestrel, the Lockheed is now awkwardly strictly better than the Kestrel. We've applied the Kestrel nerfs to the Lockheed in addition to some other well-deserved adjustments.*
+
+- Build Cost: 800 -> 1000
+- Main Weapon:
+  - Damage: 20 -> 15
+- Rocket Weapon:
+  - Damage: 250 -> 150
+
+### Meteor
+*The Meteor is currently extremely difficult to deal with without air superiority. We've reduced their range and health so they aren't quite as untouchable versus ground forces.*
+
+- Range: 250 -> 190
+- Health: 2000 -> 1000
+
+## STARSHIPS
+
+### Viper
+*The Viper is somewhat weaker for its cost than the Avenger, in normal circumstances. We've attempted to address that to some degree with a slight cost decrease.*
+
+- Cost: 350 -> 330

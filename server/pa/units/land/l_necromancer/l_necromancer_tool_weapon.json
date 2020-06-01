@@ -1,6 +1,6 @@
 {
   "ammo_capacity": 420,
-  "ammo_demand": 35,
+  "ammo_demand": 60,
   "ammo_id": [
     {
       "id": "/pa/units/land/l_necromancer/l_necromancer_ammo.json",
@@ -19,7 +19,7 @@
   },
   "fire_arc_pitch": 15,
   "firing_standard_deviation": 360,
-  "max_range": 180,
+  "max_range": 300,
   "pitch_range": 180,
   "pitch_rate": 3600,
   "rate_of_fire": 1,

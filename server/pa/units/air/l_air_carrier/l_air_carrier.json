@@ -109,7 +109,7 @@
       "type": "idle"
     }
   ],
-  "max_health": 2000,
+  "max_health": 1000,
   "mesh_bounds": [
     12,
     7.5,
