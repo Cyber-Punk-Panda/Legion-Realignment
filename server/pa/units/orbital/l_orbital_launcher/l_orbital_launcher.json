@@ -423,5 +423,5 @@
     "UNITTYPE_Important",
     "UNITTYPE_Custom1"
   ],
-  "wait_to_rolloff_time": 3
+  "wait_to_rolloff_time": 10
 }
