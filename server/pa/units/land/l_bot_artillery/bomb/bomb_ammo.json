@@ -10,7 +10,7 @@
     "AT_Structure": 3.0,
     "AT_Vehicle": 1.0
   },
-  "damage": 500,
+  "damage": 300,
   "damage_volume": {
     "initial_radius": 10.0
   },

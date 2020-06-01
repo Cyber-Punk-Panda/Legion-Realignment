@@ -190,3 +190,53 @@
 *The Havoc was historically a Leveler-killing unit, but getting a Havoc into range in the world of 140-range Levelers is rough.*
 
 - Cost: 750 -> 600
+
+## WALKERS
+
+### Peacekeeper
+- Movement Speed: 15 -> 16
+- Health: 150 -> 100
+- Damage: 19.5 -> 20
+- Fire Rate: 1.2 -> 1.1
+
+### Lancer
+*The Lancer has always been problematic. It wants to be an anti-vehicle unit, but it has always been better at kiting Dox than fighting the Ant.*
+
+*We want to restore the Lancer sniper fantasy, but balancing that is difficult. It seems like a lower pitch rate is sufficient to allow for this though.*
+- Movement Speed: 15 -> 14
+- Damage: 125 -> 175
+- Fire Rate: 0.61 -> 0.5
+- Range: 75 -> 100
+- Pitch Rate: 360 -> 55
+- Yaw Rate: 360 -> 55
+- Projectile Lifetime: 0.28 -> 0.3
+- AT Commander modifier: 1.3 -> 1
+- AT Structure modifier: 1.3 -> 1
+- AT Vehicle modifier: 1.3 -> 1
+
+### Patriot
+- Movement Speed: 15 -> 14
+
+### Purger
+- Cost: 50 -> 60
+- Health: 40 -> 10
+- Speed: 30 -> 25
+- Vision Radius: 50 -> 10
+- Radar Radius: 0 -> 70
+- Splash Radius: 15 -> 10
+
+### Miniman
+- Speed: 8 -> 10
+- Damage: 500 -> 300
+
+### Necromancer
+*We wanted to encourage players to mix Necromancers into their main army composition. As a result, we removed the on-death explosion from the Necromancer.*
+
+- On death explosion: Removed
+- Health: 2500 -> 1000
+- Range: 180 -> 300
+- Charge Rate: 35 -> 60
+- Cost: 1400 -> 1200
+- Vision: 150 -> 250
+
+*Side note: the Necromancer used to be less efficient than a factory at producing Purgers; it used 60 metal per Purger while the factory used 50 metal per Purger. However, since we nerfed Purgers to cost 60 metal, Necromancers now have the same metal efficiency as a factory for Purger production!*
