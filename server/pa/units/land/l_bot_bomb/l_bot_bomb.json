@@ -110,14 +110,14 @@
         },
         {
           "channel": "radar",
-          "radius": 70,
           "layer": "surface_and_air",
+          "radius": 70,
           "shape": "capsule"
         },
         {
           "channel": "radar",
-          "radius": 70,
           "layer": "underwater",
+          "radius": 70,
           "shape": "capsule"
         }
       ]
