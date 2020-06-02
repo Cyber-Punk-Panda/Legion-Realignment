@@ -172,6 +172,9 @@
 
 - Speed: 8 -> 10
 
+### Corsair
+- Range: 160 -> 150
+
 ### Scorpion
 *Ever since the Leveler has had its range buffed to 140, the Scorpion hasn't been able to compete with it anymore. We've buffed the Scorpion's single-target performance a bit to help it out a bit versus the Leveler.*
 
@@ -224,7 +227,7 @@
 ### Purger
 - Cost: 50 -> 60
 - Health: 40 -> 10
-- Speed: 30 -> 25
+- Jump Range: 40 -> 30
 - Vision Radius: 50 -> 10
 - Radar Radius: 0 -> 70
 - Splash Radius: 15 -> 10
