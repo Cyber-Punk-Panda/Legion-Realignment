@@ -157,6 +157,10 @@
 - Spawned Swarm:
   * Fire Rate: 5 -> 4
 
+### Centurion
+*The Centurion was inexplicably strictly better than the Anchor previously. The Centurion is now conditionally better or worse than the Anchor, and has identical performance on average.*
+- Fire Rate: 4 -> 2
+
 ## ARMOUR
 
 ### Shank
