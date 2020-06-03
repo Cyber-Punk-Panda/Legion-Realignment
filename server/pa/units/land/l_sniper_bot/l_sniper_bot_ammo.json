@@ -22,7 +22,7 @@
       0.0
     ]
   },
-  "initial_velocity": 500.0,
+  "initial_velocity": 2.0,
   "lifetime": 0.3,
   "max_velocity": 500.0,
   "model": {
@@ -30,7 +30,7 @@
   },
   "physics": {
     "add_to_spatial_db": true,
-    "gravity_scalar": 10
+    "gravity_scalar": 3
   },
   "splash_radius": 0
 }

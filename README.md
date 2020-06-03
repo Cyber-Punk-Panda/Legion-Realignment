@@ -163,17 +163,10 @@
 
 ## ARMOUR
 
-### Shank
-- Health: 300 -> 275
-- Fire Rate: 0.9 -> 0.7
-
 ### Maul
 *The Maul is a support unit that doesn't see quite as much usage as the MLA Inferno. The fact that it's the slowest unit in almost any army composition certainly doesn't help. This change will hopefully penalize players less for mixing a few Mauls into their Armour armies.*
 
 - Speed: 8 -> 10
-
-### Corsair
-- Range: 160 -> 150
 
 ### Scorpion
 *Ever since the Leveler has had its range buffed to 140, the Scorpion hasn't been able to compete with it anymore. We've buffed the Scorpion's single-target performance a bit to help it out a bit versus the Leveler.*
@@ -209,12 +202,12 @@
 ### Lancer
 *The Lancer has always been problematic. It wants to be an anti-vehicle unit, but it has always been better at kiting Dox than fighting the Ant.*
 
-*We want to restore the Lancer sniper fantasy, but balancing that is difficult. It seems like a lower pitch rate is sufficient to allow for this though.*
+*We want to restore the Lancer sniper fantasy, but balancing that is difficult. It seems like a lower yaw rate is sufficient to allow for this though.*
 - Movement Speed: 15 -> 14
 - Damage: 125 -> 175
 - Fire Rate: 0.61 -> 0.5
-- Range: 75 -> 100
-- Pitch Rate: 360 -> 55
+- Idle Aim Delay: 1.0 -> 4.5
+- Range: 75 -> 90
 - Yaw Rate: 360 -> 55
 - Projectile Lifetime: 0.28 -> 0.3
 - AT Commander modifier: 1.3 -> 1
@@ -231,10 +224,15 @@
 - Vision Radius: 50 -> 10
 - Radar Radius: 0 -> 70
 - Splash Radius: 15 -> 10
+- Guard Radius: 50 -> 100
+- No Fire While Busy: False -> True
 
 ### Miniman
+*We felt that the Miniman was unlikely to trigger its damage 
 - Speed: 8 -> 10
 - Damage: 500 -> 300
+- Bomb Detonation Time: 2.5 -> 1.75
+- AT Structure modifier: 3 -> 1
 
 ### Necromancer
 *We wanted to encourage players to mix Necromancers into their main army composition. As a result, we removed the on-death explosion from the Necromancer.*
