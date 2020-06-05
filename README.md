@@ -225,13 +225,12 @@
 - Radar Radius: 0 -> 70
 - Splash Radius: 15 -> 10
 - Guard Radius: 50 -> 100
-- No Fire While Busy: False -> True
 
 ### Miniman
 *We felt that the Miniman was unlikely to trigger its damage 
 - Speed: 8 -> 10
 - Damage: 500 -> 300
-- Bomb Detonation Time: 2.5 -> 1.75
+- Bomb Detonation Time: 2.5 -> 2.0
 - AT Structure modifier: 3 -> 1
 
 ### Necromancer
