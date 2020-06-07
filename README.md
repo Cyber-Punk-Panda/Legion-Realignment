@@ -182,9 +182,15 @@
 - Splash damages allies: True -> False
 
 ### Deathmark
-*Since we've sped up all of the other 7 and 8 speed Legion units to some extent, it'd be a bit awkward to leave the Deathmark out of this buff.*
 
 - Speed: 8 -> 9
+- Range: 260 -> 255
+- Damage: 1000 -> 300
+- Fire Rate: 0.142 -> 0.155
+
+### Panzer
+
+- Main Weapon Range: 180 -> 240
 
 ### Havoc
 *The Havoc was historically a Leveler-killing unit, but getting a Havoc into range in the world of 140-range Levelers is rough.*
@@ -203,11 +209,8 @@
 *The Lancer has always been problematic. It wants to be an anti-vehicle unit, but it has always been better at kiting Dox than fighting the Ant.*
 
 *We want to restore the Lancer sniper fantasy, but balancing that is difficult. It seems like a lower yaw rate is sufficient to allow for this though.*
-- Movement Speed: 15 -> 15
-- Damage: 125 -> 12.5
-- Fire Rate: 0.61 -> 10
-- Idle Aim Delay: 1.0 -> 4.5
 - Range: 75 -> 80
+- Health: 120 -> 100
 - Yaw Rate: 360 -> 105
 - AT Commander modifier: 1.3 -> 1
 - AT Structure modifier: 1.3 -> 1

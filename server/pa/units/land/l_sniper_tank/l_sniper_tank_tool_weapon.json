@@ -8,11 +8,11 @@
   },
   "idle_aim_delay": 8,
   "max_firing_velocity": 800,
-  "max_range": 260,
+  "max_range": 255,
   "min_firing_velocity": 60,
   "pitch_range": 80,
   "pitch_rate": 60,
-  "rate_of_fire": 0.142,
+  "rate_of_fire": 0.155,
   "target_layers": [
     "WL_LandHorizontal",
     "WL_Seafloor",
