@@ -195,21 +195,20 @@
 
 ### Peacekeeper
 - Movement Speed: 15 -> 16
-- Health: 150 -> 100
+- Health: 150 -> 135
 - Damage: 19.5 -> 20
-- Fire Rate: 1.2 -> 1.1
+- Fire Rate: 1.2 -> 1.0
 
 ### Lancer
 *The Lancer has always been problematic. It wants to be an anti-vehicle unit, but it has always been better at kiting Dox than fighting the Ant.*
 
 *We want to restore the Lancer sniper fantasy, but balancing that is difficult. It seems like a lower yaw rate is sufficient to allow for this though.*
-- Movement Speed: 15 -> 14
-- Damage: 125 -> 175
-- Fire Rate: 0.61 -> 0.5
+- Movement Speed: 15 -> 15
+- Damage: 125 -> 12.5
+- Fire Rate: 0.61 -> 10
 - Idle Aim Delay: 1.0 -> 4.5
-- Range: 75 -> 90
-- Yaw Rate: 360 -> 55
-- Projectile Lifetime: 0.28 -> 0.3
+- Range: 75 -> 80
+- Yaw Rate: 360 -> 105
 - AT Commander modifier: 1.3 -> 1
 - AT Structure modifier: 1.3 -> 1
 - AT Vehicle modifier: 1.3 -> 1

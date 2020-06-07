@@ -43,7 +43,7 @@
     }
   },
   "guard_layer": "WL_AnySurface",
-  "max_health": 120,
+  "max_health": 100,
   "mesh_bounds": [
     4,
     2.5,
@@ -108,5 +108,6 @@
     "UNITTYPE_CannonBuildable",
     "UNITTYPE_FactoryBuild",
     "UNITTYPE_Custom1"
-  ]
+  ],
+  "nearby_target_tick_update_interval": 0.2
 }
