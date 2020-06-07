@@ -187,6 +187,7 @@
 - Range: 260 -> 255
 - Damage: 1000 -> 300
 - Fire Rate: 0.142 -> 0.155
+- Targeting Priorities: Now prioritizes opposing artillery/tactical.
 
 ### Panzer
 
